@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Created on Fri Oct 30 13:57:20 2020
 
-@author: tinky
+@author: Trymeoutt
 """
 
 def YahooFinancials_Data_toFile(Ticker=[],Start='',End ='',Frequency ='daily'):
@@ -48,7 +47,7 @@ def YahooFinancials_Data_toFile(Ticker=[],Start='',End ='',Frequency ='daily'):
     from yahoofinancials import YahooFinancials
     import datetime as dt 
     import os
-    source = '/home/tinky/Python/Code/Final'
+    source = '/home/****/Python/Code/Final'
     data_folder = os.path.join(source, 'Data')
 #code_folder = os.path.join(source, 'Code/WebData')
 ##file_to_open = os.path.join(data_folder, "raw_data.txt")
