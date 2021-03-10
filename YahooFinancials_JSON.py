@@ -1,13 +1,7 @@
 """
-Created on Sun Jan 12 16:09:23 2020
 
 # Data in JSON format from yahoo financials
-
-# Github :  https://github.com/JECSand/yahoofinancials
-
 # Code Examples :
-
-from yahoofinancials import YahooFinancials
 
 # Tickers
 tech_stocks = ['AAPL', 'MSFT', 'INTC']
